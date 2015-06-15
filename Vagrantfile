@@ -4,7 +4,7 @@
 # based on:
 # http://tjheeta.github.io/2014/12/01/ansible-vagrant-multiple-nodes.html
 
-require './hosts.rb'
+require './inventory.rb'
 # TODO: make hosts as global in a better way
 hosts = @hosts
 
